@@ -6,6 +6,10 @@ android {
     compileSdkVersion 37
     //buildToolsVersion "34.0.0"
 
+    buildFeatures {
+        buildConfig true
+    }
+
     defaultConfig {
         applicationId "com.termux.termuxam"
         minSdkVersion 21
